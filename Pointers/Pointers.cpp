@@ -14,5 +14,10 @@ int main() {
 	*ptr = 30; // change the value of age through the pointer
 	cout << "New value of age: " << age << endl;  // 30
 
+
+	double price = 19.99;
+	double* pricePtr = &price; // pointer to double
+	cout << pricePtr << endl; // address of price
+
     return 0;
 }
