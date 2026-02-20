@@ -9,6 +9,7 @@ int main() {
     cout << "Address of age    : " << &age << endl;  // 0x1001 (some address)
     cout << "Value of ptr      : " << ptr << endl;  // 0x1001 (same address!)
     cout << "Value ptr points to: " << *ptr << endl;  // 25
+    cout << *ptr << endl;
 
     return 0;
 }
