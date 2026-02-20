@@ -11,5 +11,8 @@ int main() {
     cout << "Value ptr points to: " << *ptr << endl;  // 25
     cout << *ptr << endl;
 
+	*ptr = 30; // change the value of age through the pointer
+	cout << "New value of age: " << age << endl;  // 30
+
     return 0;
 }
